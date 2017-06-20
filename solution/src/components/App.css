@@ -1,0 +1,24 @@
+.App .NumberInput:not(:last-child) {
+	margin-right: 10px;
+}
+
+.App .App-controls {
+	margin-top: 70px;
+}
+
+.App .App-error {
+	margin-top: 20px;
+}
+
+.App .App-data {
+	margin-top: 20px;
+}
+
+.App .App-loader {
+	text-align: center;
+	padding: 100px;
+}
+
+.App .App-loader .Loader {
+	display: inline-block;
+}
