@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 
 import api from '../lib/api';
 
-import {fillData} from '../lib/utils';
-
 import Header from './Header';
 import NumberInput from './NumberInput';
 import DataTable from './DataTable';
@@ -97,7 +95,7 @@ class App extends Component {
 						that.setState({
 							loading: false,
 							token: response.token,
-							data: fillData(response.data, from, to),
+							data: response.data,
 							error: null
 						});
 					},
