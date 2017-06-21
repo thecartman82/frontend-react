@@ -144,7 +144,7 @@ const routes = function (app) {
 		
 		generateToken(ip);
 		
-		const resultData = data.slice(from - 1, to - from);
+		const resultData = data.slice(from - 1, to);
 		
 		return res.send({
 			data: resultData,
